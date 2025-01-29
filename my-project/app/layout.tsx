@@ -12,7 +12,7 @@ const ovo = Ovo({
 
 
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Portfolio",
   description: "",
 };
@@ -26,7 +26,7 @@ export default function RootLayout({
     
     <html lang="en" className="scroll-smooth">
       <head>
-      <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+      <script async src="https://unpkg.com/@tailwindcss/browser@4"></script>
       </head>      
     
       <body
