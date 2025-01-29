@@ -24,13 +24,13 @@ export default function RootLayout({
 }>) {
   return (
     
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <head>
       <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
       </head>      
     
       <body
-        className={`${outfit.className} ${ovo.className} antialiased`}
+        className={`${outfit.className} ${ovo.className} antialiased leading-8 overflow-x-hidden`}
       >
         {children}
       </body>
